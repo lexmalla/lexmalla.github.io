@@ -7,10 +7,15 @@ h2{
 	text-align: center;
 	}
 
+h4{
+	text-align: center;
+	color: white}
+
 .jumbotron{
 	background-color: transparent;
 	max-height: 100%
-	width: 100%;}
+	width: 100%
+	}
 
 body{
 	background-image: url(../img/cinegif.gif);
@@ -23,12 +28,30 @@ body{
 
 .button{
 	align-items: center;
+	max-width: 100%}
+
+.col1{
+	opacity: 0.9: 
 	}
 
 .btn{
 	background-color: #0000008c;
 	opacity: 0.9;
-	outline-color: black;
-	width: 100%
+	border-color: black;
+	border-width: 3pt;
+	width: 100%;
 	}
+
+.card{
+	background-color: transparent;
+	}
+
+.card-body{
+	background-color: white;
+	opacity: 0.8;
+}
 	
+iframe{
+	border-color: black;
+	border-width: 3pt;
+	}
